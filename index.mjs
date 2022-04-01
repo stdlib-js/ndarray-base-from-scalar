@@ -1,0 +1,4 @@
+// Copyright (c) 2022 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+/// <reference types="./index.d.ts" />
+import e from"https://cdn.jsdelivr.net/gh/stdlib-js/array-base-arraylike2object@esm/index.mjs";import r from"https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-buffer@esm/index.mjs";import t from"https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ctor@esm/index.mjs";import s from"https://cdn.jsdelivr.net/gh/stdlib-js/string-format@esm/index.mjs";var n=e,a=r,d=t,i=s;var m=function(e,r){var t;if(null===(t=a(r,1)))throw new TypeError(i("invalid argument. Second argument must be a recognized data type. Value: `%s`.",r));return/^complex/.test(r)&&"number"==typeof e&&(e=[e,0]),n(t).setter(t,0,e),new d(r,t,[],[0],0,"row-major")};export{m as default};
+//# sourceMappingURL=index.mjs.map
