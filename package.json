@@ -42,7 +42,7 @@
     "@stdlib/array-base-setter": "^0.0.1",
     "@stdlib/ndarray-base-buffer": "^0.0.6",
     "@stdlib/ndarray-base-ctor": "^0.0.6",
-    "@stdlib/string-format": "^0.0.3",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.2",
     "@stdlib/types": "^0.0.14"
   },
   "devDependencies": {
