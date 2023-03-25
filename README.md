@@ -60,12 +60,12 @@ The [branches.md][branches-url] file summarizes the available branches and displ
 var scalar2ndarray = require( '@stdlib/ndarray-base-from-scalar' );
 ```
 
-#### scalar2ndarray( value, dtype )
+#### scalar2ndarray( value, dtype, order )
 
 Returns a zero-dimensional [`ndarray`][@stdlib/ndarray/base/ctor] containing a provided scalar `value` and having a specified [data type][@stdlib/ndarray/dtypes].
 
 ```javascript
-var x = scalar2ndarray( 1.0, 'float64' );
+var x = scalar2ndarray( 1.0, 'float64', 'row-major' );
 // returns <ndarray>
 
 var sh = x.shape;
@@ -113,7 +113,7 @@ var dt = dtypes();
 var x;
 var i;
 for ( i = 0; i < dt.length; i++ ) {
-    x = scalar2ndarray( i, dt[ i ] );
+    x = scalar2ndarray( i, dt[ i ], 'row-major' );
     console.log( x.get() );
 }
 ```
