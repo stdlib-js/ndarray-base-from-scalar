@@ -6,12 +6,23 @@
 
 ## Unreleased (2026-01-31)
 
+<section class="features">
+
+### Features
+
+-   [`7b69002`](https://github.com/stdlib-js/stdlib/commit/7b69002e03bd424815f80e156e0994f150e80175) - ensure support for non-string dtypes and update tests to use functional accessors
+
+</section>
+
+<!-- /.features -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`7b69002`](https://github.com/stdlib-js/stdlib/commit/7b69002e03bd424815f80e156e0994f150e80175) - **feat:** ensure support for non-string dtypes and update tests to use functional accessors _(by Athan Reines)_
 -   [`15e8b35`](https://github.com/stdlib-js/stdlib/commit/15e8b358c586ae53ee8150469519149d1c42be2b) - **test:** address failing test _(by Athan Reines)_
 -   [`abc70f7`](https://github.com/stdlib-js/stdlib/commit/abc70f761f409120b8a44de8023bcab6138c9cc9) - **refactor:** use assertion utility _(by Athan Reines)_
 -   [`7dc5c14`](https://github.com/stdlib-js/stdlib/commit/7dc5c14b995c7c4bd286087d04a20497057c0e71) - **refactor:** use assertion utility _(by Athan Reines)_
