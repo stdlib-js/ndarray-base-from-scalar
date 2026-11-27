@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-11-21)
+## Unreleased (2026-11-27)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`554abf2`](https://github.com/stdlib-js/stdlib/commit/554abf2839e5f142a8c14dbd61725a4c08951684) - **docs:** improve doctests for ndarray instances in `ndarray/base/from-scalar` [(#16906)](https://github.com/stdlib-js/stdlib/pull/16906) _(by Tanu Saini, Athan Reines)_
 -   [`745b7b2`](https://github.com/stdlib-js/stdlib/commit/745b7b23ad7c544eeaa33344aae3e79ba3404062) - **feat:** add float16 dtype support to `ndarray/base/from-scalar` [(#15743)](https://github.com/stdlib-js/stdlib/pull/15743) _(by Samarth Kolarkar)_
 -   [`b8d09ca`](https://github.com/stdlib-js/stdlib/commit/b8d09cac262a732b639c44606e0d85f974965085) - **chore:** follow-up corrections for commits merged to develop on 2026-05-10 [(#12052)](https://github.com/stdlib-js/stdlib/pull/12052) _(by Philipp Burckhardt)_
 -   [`c5215cc`](https://github.com/stdlib-js/stdlib/commit/c5215cca9085bae13510df122d8637595eb6645d) - **docs:** improve doctests for complex number typed arrays in `ndarray/base/from-scalar` [(#12049)](https://github.com/stdlib-js/stdlib/pull/12049) _(by Karan Anand, Athan Reines)_
@@ -37,12 +38,13 @@
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Karan Anand
 -   Philipp Burckhardt
 -   Samarth Kolarkar
+-   Tanu Saini
 
 </section>
 
